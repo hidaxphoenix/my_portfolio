@@ -1,6 +1,6 @@
 @charset "UTF-8";
 /*resetCSS*/
-html, body, h1, h2, h3, h4,
+html, h1, h2, h3, h4,
 ul, ol, dl, li, dt, dd, p, div, span,
 img, a, table, tr, th, td, figure {
   margin: 0;
@@ -16,6 +16,12 @@ article, header, footer, aside, figure, figcaption, nav, section {
   display: block;
 }
 
+body {
+  position: relative;
+  color: beige;
+}
+
+
 /* ヘッダー */
 .header {
   display: flex;
@@ -25,7 +31,6 @@ article, header, footer, aside, figure, figcaption, nav, section {
   background-image: url(img/index-img2.png);
   /* background-size: cover; */
 }
-
 .logo{
   margin-bottom: .5rem;
   /* font-size: 50px; */
@@ -48,6 +53,8 @@ article, header, footer, aside, figure, figcaption, nav, section {
   color: #fff;
 }
 
+
+/* ヘッダー下ナブバー */
 .navbar{
   padding: 10px;
   font-family: 'Open sans', sans-serif;
@@ -56,7 +63,6 @@ article, header, footer, aside, figure, figcaption, nav, section {
 .navlist{
   display: flex;
   margin:auto;
-
 }
 .nav-item{
   font-weight: bold;
@@ -64,7 +70,6 @@ article, header, footer, aside, figure, figcaption, nav, section {
   padding: 0 20px;
   list-style: none;
   font-size: 25px;
-
 }
 .nav-link{
   list-style: none;
@@ -72,6 +77,10 @@ article, header, footer, aside, figure, figcaption, nav, section {
   color: black;
 }
 
+
+main{
+  text-align: center;
+}
 /* プロフィール */
 .inner{
   padding: 80px 10px 10px 0px;
@@ -169,8 +178,11 @@ article, header, footer, aside, figure, figcaption, nav, section {
 
 
 /* フッター */
-.footer{
-  background-color: #333;
+footer{
+  /* background-color: #333; */
+  position: absolute;
+  bottom: 0;
+  text-align: center;
 }
 .footerul{
   margin-bottom: 30px;
