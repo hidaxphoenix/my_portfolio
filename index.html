@@ -11,7 +11,7 @@
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/drawer/3.2.1/css/drawer.min.css">
 
     <!-- グーグルフォント -->
-    <link href="https://fonts.googleapis.com/css?family=Caveat&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Sen&display=swap" rel="stylesheet">
 
     <!-- フォントオーサム -->
     <link href="https://use.fontawesome.com/releases/v5.6.1/css/all.css" rel="stylesheet">
@@ -23,63 +23,42 @@
 
 
   </head>
+
+
+
   <body>
-    <div class="container-fluid">
-      <div class="row">
-        <div class="col-12">
-          <header class="header">
-            <h1 class="logo">
-              <span class="logo-title">SHOTA HIDAKA'S PORTFOLIO</span>
-              <span class="logo-desc">Web Engineer</span>
-            </h1>
-          </header>
-    <!-- <nab class="navbar"></nab> -->
-    <div class="container-fluid">
-      <div class="row">
-        <div class="col-12">
-          <nav class="navbar navbar-expand-lg navbar-light bg-light rounded">
-            <a class="navbar-brand" href="#">Hidaka's Portfolio</a>
-            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarsExample09" aria-controls="navbarsExample09" aria-expanded="false" aria-label="Toggle navigation">
-              <span class="navbar-toggler-icon"></span>
-            </button>
-              <li class="nav-item">
-                <a class="nav-link" href="#">Profile</a>
-              </li>
-              <li class="nav-item">
-                <a class="nav-link" href="#">Works</a>
-              </li>
-              <li class="nav-item">
-                <a class="nav-link" href="#">Skills</a>
-              </li>
-              <li class="nav-item">
-                <a class="nav-link" href="#">Contact</a>
-              </li>
-              <li class="nav-item">
-                <a class="nav-link disabled" href="#" tabindex="-1" aria-disabled="true">Disabled</a>
-              </li>
-            </ul>
-          </nav>
-        </div>
-      </div>
-    </div>
-      <!-- <ul class="navlist">
+    <!-- トップコンテイナー -->
+    <div class="top-container">
+      <header class="header">
+        <h1 class="logo">
+          <span class="logo-title">SHOTA HIDAKA'S PORTFOLIO</span>
+          <span class="logo-desc">Web Engineer</span>
+        </h1>
+      </header>
+    </div>  
+    <!-- トップナブ -->
+    <div class="nav-container">
+      <ul class="nav-box">
         <li class="navitem"><a href="pl" class="navlink">Profile</a></li>
         <li class="navitem"><a href="pl" class="navlink">Works</a></li>
         <li class="navitem"><a href="pl" class="navlink">Skills</a></li>
         <li class="navitem"><a href="pl" class="navlink">Contact</a></li>
       </ul>
-    </nab> -->
+    </div>
+      
     <main id="contents">
       <!-- プロフィール -->
       <section class="section" id="profile">
         <div class="inner">
-          <div class="section-title-block">
-            <h2 class="section-title"><i class="fas fa-user"><span class="section-title-css">PROFILE</span></i></h2>
-          </div>
-          <div class="column-wrapper">
-            <div class="column-image-profile"><img class="img-profile" src="img/mypic-bicycle.JPG" alt></div>
-            <div class="column-desc">
-              <p class="text">日高 将太</p>
+          <div class="profile-box">
+            <div class="section-title-block">
+              <h2 class="section-title"><i class="fas fa-user"><span class="section-title-css">PROFILE</span></i></h2>
+            </div>
+            <div class="column-wrapper">
+              <div class="column-image-profile"><img class="img-profile" src="img/mypic-bicycle.JPG" alt></div>
+              <div class="column-desc">
+                <p class="text">日高 将太</p>
+              </div>
             </div>
           </div>
         </div>
@@ -88,93 +67,164 @@
       <!-- 作品集 -->
       <section class="section" id="works">
         <div class="inner">
-          <div class="section-title-block">
-            <h2 class="section-title"><span class="section-title-css">WORKS</span></h2>
-            <div class="section-desc"></div>
-            <div class="card-wrapper my-garally">
-              <figure class="card">
-                <img class="card-image" src="#" alt>
-                <figcaption calss="card-caption">
-                  <p class="card-caption-title">ポートフォリオ</p>
-                  <p class="card-caption-info">自分自身のポートフォリオです。</p>
-                  <p class="card-caption-info">HTML/CSS/bootstrap4</p>
-                  <p class="card-caption-url">
-                    <a class="url-link" href="#" target="_blank">Github</a>
-                  </p>
-                </figcaption>
-              </figure>
-              <figure class="card">
-                <img class="card-image" src="#" alt>
-                <figcaption calss="card-caption">
-                  <p class="card-caption-title">コレクションシェアアプリ</p>
-                  <p class="card-caption-info">コレクションをweb上で管理</p>
-                  <p class="card-caption-info">HTML/CSS/Ruby/Rails/Jquery</p>
-                  <p class="card-caption-url">
-                    <a class="url-link" href="#" target="_blank">Github</a>
-                  </p>
-                </figcaption>
-              </figure>
-              <figure class="card">
-                <img class="card-image" src="#" alt>
-                <figcaption calss="card-caption">
-                  <p class="card-caption-title">Fulima</p>
-                  <p class="card-caption-info">メルカリのコピーサイト</p>
-                  <p class="card-caption-info">HTML/CSS/Ruby/Rails/Jquery</p>
-                  <p class="card-caption-url">
-                    <a class="url-link" href="#" target="_blank">Github</a>
-                  </p>
-                </figcaption>
-              </figure>
+          <div class="works-box">
+            <div class="section-title-block">
+              <h2 class="section-title"><span class="section-title-css">WORKS</span></h2>
+              <div class="section-desc"></div>
+              <div class="card-wrapper my-garally">
+                <figure class="card">
+                  <img class="card-image" src="#" alt>
+                  <figcaption calss="card-caption">
+                    <div class="works-image"></div>
+                    <p class="card-caption-title">ポートフォリオ</p>
+                    <p class="card-caption-info">自分自身のポートフォリオです。</p>
+                    <p class="card-caption-info">HTML/CSS/bootstrap4</p>
+                    <p class="card-caption-url">
+                      <a class="url-link" href="#" target="_blank">Github</a>
+                    </p>
+                  </figcaption>
+                </figure>
+                <figure class="card">
+                  <img class="card-image" src="#" alt>
+                  <figcaption calss="card-caption">
+                    <div class="works-image"></div>
+                    <p class="card-caption-title">Collecolle</p>
+                    <p class="card-caption-info">コレクション管理アプリ</p>
+                    <p class="card-caption-info">HTML/CSS/Ruby/Rails/Jquery</p>
+                    <p class="card-caption-url">
+                      <a class="url-link" href="#" target="_blank">Github</a>
+                    </p>
+                  </figcaption>
+                </figure>
+                <figure class="card">
+                  <img class="card-image" src="#" alt>
+                  <figcaption calss="card-caption">
+                    <div class="works-image"></div>
+                    <p class="card-caption-title">Fulima</p>
+                    <p class="card-caption-info">メルカリのコピーサイト</p>
+                    <p class="card-caption-info">HTML/CSS/Ruby/Rails/Jquery</p>
+                    <p class="card-caption-url">
+                      <a class="url-link" href="#" target="_blank">Github</a>
+                    </p>
+                  </figcaption>
+                </figure>
+              </div>
             </div>
           </div>
         </div>
       </section>
-      
-
-
-
       <!-- スキル -->
       <section class="section" id="skill">
         <div class="inner">
-          <div class="section-title-block">
-            <h2 class="section-title">
-            <p class="section-desc">SKILL</p>
-            </h2>
-          </div>
-          <div class="card-wrapper">
-            <div class="card">
-              <div class="skill-desc">
-                <h3 class="skill-desc-title">
-                  デザインコーディング
-                </h3>
-                <p>基本的なことは一通りできます</p>
-                <table class="table table-border-less">
-                  <thred>
-                    <th scope="col">技術</th>
-                    <th scope="col">経験年数</th>
-                    <th scope="col">スキル</th>
-                  </thred>
-                  <tbody>
-                    <tr>
-                      <th scope="row">HTML</th>
-                      <td>２ヶ月</td>
-                      <td>
-                        <span class="rating">
-                          <p class="rate rate4"></p>
-                        </span>
-                      </td>
-                    </tr>
-                    <tr>
-                      <th scope="row">CSS</th>
-                      <td>２ヶ月</td>
-                      <td>
-                        <span class="rating">
-                          <p class="rate rate4"></p>
-                        </span>
-                      </td>
-                    </tr>
-                  </tbody>
-                </table>
+          <div class="skill-box">
+            <div class="section-title-block">
+              <h2 class="section-title">
+              <p class="section-desc">SKILL</p>
+              </h2>
+            </div>
+            <div class="card-wrapper">
+              <div class="card">
+                <div class="skill-desc">
+                  <h3 class="skill-desc-title">
+                    フロントエンド
+                  </h3>
+                  <!-- <p>基本的なことは一通りできます</p> -->
+                  <table class="table table-border-less">
+                    <thred>
+                      <th scope="col">技術</th>
+                      <th scope="col">経験年数</th>
+                    </thred>
+                    <tbody>
+                      <tr>
+                        <th scope="row">HTML</th>
+                        <td>２ヶ月</td>
+                        <td>
+                          <span class="rating">
+                            <p class="rate rate4"></p>
+                          </span>
+                        </td>
+                      </tr>
+                      <tr>
+                        <th scope="row">CSS</th>
+                        <td>２ヶ月</td>
+                        <td>
+                          <span class="rating">
+                            <p class="rate rate4"></p>
+                          </span>
+                        </td>
+                      </tr>
+                    </tbody>
+                  </table>
+                </div>
+              </div>
+              <div class="card">
+                <div class="skill-desc">
+                  <h3 class="skill-desc-title">
+                    サーバーサイド
+                  </h3>
+                  <p>基本的なことは一通りできます</p>
+                  <table class="table table-border-less">
+                    <thred>
+                      <th scope="col">技術</th>
+                      <th scope="col">経験年数</th>
+                    </thred>
+                    <tbody>
+                      <tr>
+                        <th scope="row">HTML</th>
+                        <td>２ヶ月</td>
+                        <td>
+                          <span class="rating">
+                            <p class="rate rate4"></p>
+                          </span>
+                        </td>
+                      </tr>
+                      <tr>
+                        <th scope="row">CSS</th>
+                        <td>２ヶ月</td>
+                        <td>
+                          <span class="rating">
+                            <p class="rate rate4"></p>
+                          </span>
+                        </td>
+                      </tr>
+                    </tbody>
+                  </table>
+                </div>
+              </div>
+              <div class="card">
+                <div class="skill-desc">
+                  <h3 class="skill-desc-title">
+                    デザインコーディング
+                  </h3>
+                  <p>基本的なことは一通りできます</p>
+                  <table class="table table-border-less">
+                    <thred>
+                      <th scope="col">技術</th>
+                      <th scope="col">経験年数</th>
+                      <th scope="col">スキル</th>
+                    </thred>
+                    <tbody>
+                      <tr>
+                        <th scope="row">HTML</th>
+                        <td>２ヶ月</td>
+                        <td>
+                          <span class="rating">
+                            <p class="rate rate4"></p>
+                          </span>
+                        </td>
+                      </tr>
+                      <tr>
+                        <th scope="row">CSS</th>
+                        <td>２ヶ月</td>
+                        <td>
+                          <span class="rating">
+                            <p class="rate rate4"></p>
+                          </span>
+                        </td>
+                      </tr>
+                    </tbody>
+                  </table>
+                </div>
               </div>
             </div>
           </div>

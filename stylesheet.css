@@ -18,11 +18,11 @@ article, header, footer, aside, figure, figcaption, nav, section {
 
 body {
   position: relative;
-  color: beige;
+  /* color: beige; */
 }
 
 
-/* ヘッダー */
+/* ここからヘッダー */
 .header {
   display: flex;
   height: 550px;
@@ -41,7 +41,7 @@ body {
 .logo-title{
   font-family: 'Oswald', sans-serif;
   font-size: 70px;
-  color: #fff;
+  color: rgb(14, 95, 57);
   line-height: 1;
   letter-spacing: -2px;
 }
@@ -50,47 +50,56 @@ body {
   font-size: 36px;
   text-align: center;
   margin-top: 30px;
-  color: #fff;
+  color: rgb(14, 95, 57);
 }
 
 
-/* ヘッダー下ナブバー */
-.navbar{
+/* ここからヘッダー下ナブバー */
+.nav-container{
+  display: flex;
+  justify-content: center;
   padding: 10px;
   font-family: 'Open sans', sans-serif;
   z-index: 100;
+  background-color: rgb(80, 79, 77);
+  
 }
-.navlist{
+.nav-box{
   display: flex;
-  margin:auto;
+  margin-top: 10px;
 }
-.nav-item{
+.navitem{
   font-weight: bold;
-  font-size: 18px;
-  padding: 0 20px;
+  padding: 0 40px;
   list-style: none;
   font-size: 25px;
 }
-.nav-link{
+.navlink{
+  font-size: 35px;
   list-style: none;
   text-decoration: none;
-  color: black;
+  color: #fff;
 }
 
 
 main{
   text-align: center;
+  background-color: rgb(223, 219, 211);
 }
-/* プロフィール */
+/* ここからプロフィール */
 .inner{
-  padding: 80px 10px 10px 0px;
+  padding: 120px 10px 10px 0px;
   max-width: 1320px;
   width: 100%;
   margin: 0 auto;
 }
+.profile-box{
+  background-color: #fff;
+  padding-top: 50px;
+  padding-bottom: 80px;
+}
 .section-title-block{
   text-align: center;
-  margin-bottom: 30px;
 }
 .section-title{
   font-family: 'Oswald', sans-serif;
@@ -98,8 +107,8 @@ main{
   display: inline-block;
   font-size: 56px;
   font-weight: bold;
-  margin-bottom: 10px;
   color: #444;
+  width: 80%;
 }
 .column-wrapper{
   width: 80%;
@@ -107,21 +116,32 @@ main{
   padding: 20px 0;
   display: flex;
   flex-wrap: nowrap;
-  justify-content: space-between;
+  /* justify-content: space-between; */
+  background-color: #fff;
 }
 .column-image-profile{
   width: 33%;
 }
 
 .img-profile{
-  width: 250px;
-  height: 250px;
+  width: 300px;
+  height: 300px;
+  border-radius: 30px;
+  margin: 20px 0 20px 70px;
 }
 .column-desc{
-  width: 62%;
+  width: 50%;
+  border: solid 1px black;
+  margin-left: 100px;
+  padding-bottom: 100px;
 }
 
-/* 作品集 */
+/* ここから作品集 */
+.works-box{
+  background-color: #fff;
+  padding: 50px 30px 30px 30px;
+  /* padding-bottom: 50px; */
+}
 .card-wrapper {
   padding: 20px 0;
   display: flex;
@@ -140,21 +160,34 @@ main{
   border: 1px solid rgba(0,0,0,.125);
   border-radius: .25rem;
 }
+.works-image{
+  height: 200px;
+  background-color: rgb(97, 95, 95);
+}
 
-/* スキル */
-/* .card-wrapper{
+
+/* ここからスキル */
+.skill-box{
+  background-color: #fff;
+  padding-top: 50px;
+  padding-bottom: 30px;
+}
+.section-title-block{
+}
+.card-wrapper{
   width: 80%;
   margin: 0 auto;
   padding: 20px 0;
   display: flex;
   flex-wrap: wrap;
-} */
+}
 .skill-desc{
   flex-basis: calc(100% - 75px - 30px);
   text-align: center;
 }
 
-/* コンタクト */
+
+/* ここからコンタクト */
 .formBox-container{
   max-width: 1140px;
 }
