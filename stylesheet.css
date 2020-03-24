@@ -161,9 +161,20 @@ main{
   border: 1px solid rgba(0,0,0,.125);
   border-radius: .25rem;
 }
-.works-image{
+.works-image-portfolio{
   height: 200px;
-  background-color: rgb(97, 95, 95);
+  background-size: cover;
+  background-image: url(img/ポートフォリオ写真.jpg);
+}
+.works-image-collecolle{
+  height: 200px;
+  background-size: cover;
+  background-image: url(img/collecolleアプリ写真.jpg);
+}
+.works-image-fulima{
+  height: 200px;
+  background-size: cover;
+  background-image: url(img/フリマ写真.jpg);
 }
 
 
