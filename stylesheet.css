@@ -105,9 +105,11 @@ main{
   letter-spacing: -0.01em;
   display: inline-block;
   font-size: 56px;
-  font-weight: bold;
   color: #444;
   width: 80%;
+}
+.section-title-css{
+  font-weight: bold;
 }
 .column-wrapper{
   width: 80%;
@@ -198,8 +200,12 @@ main{
   padding-top: 50px;
   padding-bottom: 30px;
 }
+.formbox{
+  margin-left: 100px;
+}
 .formBox-container{
   max-width: 1140px;
+  position: relative;
 }
 .nameForm{
   margin: 10px 0;
@@ -217,6 +223,17 @@ main{
   display: inline-block;
   padding: 5px 10px;
   border-radius: 20px;
+}
+.detailForm{
+  margin-top: 35px;
+  margin-bottom: 20px;
+}
+textarea{
+  width: 582px;
+}
+.contact-submit{
+  position: absolute;
+  right: 270px;
 }
 
 
