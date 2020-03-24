@@ -41,7 +41,7 @@ body {
 .logo-title{
   font-family: 'Oswald', sans-serif;
   font-size: 70px;
-  color: rgb(14, 95, 57);
+  color: black;
   line-height: 1;
   letter-spacing: -2px;
 }
@@ -50,7 +50,7 @@ body {
   font-size: 36px;
   text-align: center;
   margin-top: 30px;
-  color: rgb(14, 95, 57);
+  color: black;
 }
 
 
@@ -58,7 +58,6 @@ body {
 .nav-container{
   display: flex;
   justify-content: center;
-  padding: 10px;
   font-family: 'Open sans', sans-serif;
   z-index: 100;
   background-color: rgb(80, 79, 77);
@@ -75,7 +74,7 @@ body {
   font-size: 25px;
 }
 .navlink{
-  font-size: 35px;
+  font-size: 25px;
   list-style: none;
   text-decoration: none;
   color: #fff;
@@ -88,7 +87,7 @@ main{
 }
 /* ここからプロフィール */
 .inner{
-  padding: 120px 10px 10px 0px;
+  padding: 80px 10px 10px 0px;
   max-width: 1320px;
   width: 100%;
   margin: 0 auto;
@@ -188,6 +187,12 @@ main{
 
 
 /* ここからコンタクト */
+.contact-inner{
+  padding: 80px 10px 80px 0px;
+  max-width: 1320px;
+  width: 100%;
+  margin: 0 auto;
+}
 .contact-box{
   background-color: #fff;
   padding-top: 50px;
@@ -217,9 +222,14 @@ main{
 
 /* フッター */
 footer{
-  /* background-color: #333; */
+  background-color: #333;
   bottom: 0;
   text-align: center;
+}
+.footerlink{
+  color: #fff;
+  text-decoration: none;
+  background-color: transparent;
 }
 .footerul{
   margin-bottom: 30px;
@@ -229,12 +239,12 @@ footer{
   list-style: none;
 }
 .footerlist{
-  font-size: 12px;
+  font-size: 15px;
   padding: 0 20px;
-}
-.footerlink{
   color: #fff;
-  font-weight: bold;
-  text-decoration: none;
-  background-color: transparent;
+}
+.copyright{
+  color: #fff;
+  font-size: 10px;
+  margin-bottom: 0;
 }
