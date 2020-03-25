@@ -16,6 +16,10 @@ article, header, footer, aside, figure, figcaption, nav, section {
   display: block;
 }
 
+html{
+  scroll-behavior: smooth;
+}
+
 body {
   position: relative;
   /* color: beige; */
@@ -41,7 +45,7 @@ body {
 .logo-title{
   font-family: 'Oswald', sans-serif;
   font-size: 70px;
-  color: black;
+  color: rgb(51, 50, 50);
   line-height: 1;
   letter-spacing: -2px;
 }
@@ -50,7 +54,7 @@ body {
   font-size: 36px;
   text-align: center;
   margin-top: 30px;
-  color: black;
+  color: rgb(51, 50, 50);
 }
 
 
