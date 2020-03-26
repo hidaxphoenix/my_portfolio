@@ -245,7 +245,39 @@
                   Contact
                 </span>
               </h2>
-              <p class="section-desc">興味を持って頂けたら是非ご連絡ください</p>
+              <div class="container">
+                <div class="row">
+                  <div class="col-md-12">
+                    <form action="https://api.staticforms.xyz/submit" method="post">
+                      <input type="hidden" name="accessKey" value="51e0f6ec-cedc-484d-9224-aac444d4e3b8">
+                      <input type="hidden" name="subject" value="件名">
+                      <input type="hidden" name="redirectTo" value="https://mystifying-newton-ac4849.netlify.com/index.html">
+                      <div class="form-group row">
+                        <label for="inputName" class="col-sm-4 col-form-label">お名前</label>
+                        <div class="col-sm-8">
+                          <input type="text" name="name" class="form-control" id="inputName">
+                        </div>
+                      </div>
+                      <div class="form-group row">
+                        <label for="inputEmail" class="col-sm-4 col-form-label">メールアドレス</label>
+                        <div class="col-sm-8">
+                          <input type="text" name="email" class="form-control" id="inputEmail">
+                        </div>
+                      </div>
+                      <div class="form-group row">
+                        <label for="inputTextarea" class="col-sm-4 col-form-label">メッセージ</label>
+                        <div class="col-sm-8">
+                          <textarea name="message" rows="3" class="form-control" id="inputTextarea"></textarea>
+                        </div>
+                      </div>
+                      <div class="text-center">
+                        <button type="submit" class="btn btn-primary mb-2">送信</button>
+                      </div>
+                    </form>
+                  </div>
+                </div>
+              </div>
+              <!-- <p class="section-desc">興味を持って頂けたら是非ご連絡ください</p>
               <div class="formbox col-md-offset-2 col-md-8 col-md-offset-2">
                 <div class="formBox-container">
                   <div class="nameForm row">
@@ -270,7 +302,7 @@
                     <input class="submit-test" type="submit" value="送信">
                   </div>
                 </div>
-              </div>
+              </div> -->
             </div>
           </div>
         </div>
