@@ -230,37 +230,8 @@ main{
   padding-top: 50px;
   padding-bottom: 30px;
 }
-.formbox{
-  margin-left: 100px;
-}
-.formBox-container{
-  max-width: 1140px;
-  margin-left: 200px;
-  position: relative;
-}
-.nameForm{
-  margin: 10px 0;
-  display: flex;
-  flex-wrap: wrap;
-}
-.formRight{
-  position: relative;
-  width: 100%;
-  padding-right: 15px;
-  padding-left: 15px;
-}
-.formRed{
-  background-color: #FA8072;
-  display: inline-block;
-  padding: 5px 10px;
-  border-radius: 20px;
-}
-.detailForm{
-  margin-top: 35px;
-  margin-bottom: 20px;
-}
 textarea{
-  width: 350px;
+  width: 200px;
 }
 .contact-submit{
 
