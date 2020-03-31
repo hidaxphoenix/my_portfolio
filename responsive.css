@@ -3,10 +3,10 @@
   .header{
     height: 200px;
   }
-  .logo-title {
+  .logo-title{
     font-size: 30px;
   }
-  .logo-desc {
+  .logo-desc{
     font-size: 20px;
   }
   .navitem{
@@ -56,14 +56,7 @@
     margin-bottom: 20px;
     width: 100%;
   }
-  .works-image-portfolio{
-    height: 200px;
+  .contact-inner{
+    padding: 40px 10px 30px 10px;
   }
-  .works-image-collecolle{
-    height: 200px;
-  }
-  .works-image-fulima{
-    height: 200px;
-  }
-  
 }
