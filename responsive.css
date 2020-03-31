@@ -1,0 +1,69 @@
+/* スマホ向けレイアウト */
+@media (max-width: 670px) {
+  .header{
+    height: 200px;
+  }
+  .logo-title {
+    font-size: 30px;
+  }
+  .logo-desc {
+    font-size: 20px;
+  }
+  .navitem{
+    padding: 0 20px;
+  }
+  .navlink{
+    font-size: 15px;
+  }
+  .inner{
+    padding: 40px 10px 10px 10px;
+  }
+  .profile-box{
+    padding-top: 20px;
+    padding-bottom: 40px;
+  }
+  .section-title{
+    font-size: 30px;
+  }
+  .column-wrapper{
+    flex-direction: column;
+    padding: 0;
+  }
+  .column-image-profile{
+    width: 100%;
+  }
+  .column-desc1{
+    width: 85%;
+    height: 260px;
+    margin-left: 25px;
+    margin-bottom: 20px;
+  }
+  .column-desc2{
+    width: 85%;
+    margin-left: 25px;
+    padding-bottom: 100px;
+    padding-left: 20px;
+    margin-bottom: 20px;
+    height: 330px;
+  }
+  .works-box{
+    padding-top: 20px;
+  }
+  .card-wrapper {
+    flex-direction: column;
+  }
+  .card{
+    margin-bottom: 20px;
+    width: 100%;
+  }
+  .works-image-portfolio{
+    height: 200px;
+  }
+  .works-image-collecolle{
+    height: 200px;
+  }
+  .works-image-fulima{
+    height: 200px;
+  }
+  
+}

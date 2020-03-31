@@ -121,13 +121,11 @@ main{
   padding: 20px 0;
   display: flex;
   flex-wrap: nowrap;
-  /* justify-content: space-between; */
   background-color: #fff;
 }
 .column-image-profile{
   width: 33%;
 }
-
 .img-profile{
   width: 220px;
   height: 220px;
@@ -160,7 +158,6 @@ main{
 .works-box{
   background-color: #fff;
   padding: 50px 30px 30px 30px;
-  /* padding-bottom: 50px; */
 }
 .card-wrapper {
   padding: 20px 0;
